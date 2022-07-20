@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI conversation_create_from_config(SPXCONVERSATIONHANDLE* phconv, SPXSPEECHCONFIGHANDLE hspeechconfig, const char* id);
 SPXAPI conversation_update_participant_by_user_id(SPXCONVERSATIONHANDLE hconv, bool add, const char* userId);

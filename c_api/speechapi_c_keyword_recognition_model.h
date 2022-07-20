@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 
 SPXAPI_(bool) keyword_recognition_model_handle_is_valid(SPXKEYWORDHANDLE hkeyword);

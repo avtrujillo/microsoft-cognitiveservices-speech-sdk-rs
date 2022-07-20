@@ -6,8 +6,8 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
-#include <speechapi_c_result.h>
+#include "speechapi_c_common.h"
+#include "speechapi_c_result.h"
 
 typedef enum
 {

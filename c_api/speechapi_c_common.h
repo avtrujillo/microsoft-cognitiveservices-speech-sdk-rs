@@ -7,10 +7,10 @@
 
 #pragma once
 
-#include <spxdebug.h>
-#include <azac_api_c_common.h> // must include after spxdebug.h or speechapi*.h (can NOT be included before)
+#include "spxdebug.h"
+#include "azac_api_c_common.h" // must include after spxdebug.h or speechapi*.h (can NOT be included before)
 #include <stdbool.h>
-#include <spxerror.h>
+#include "spxerror.h"
 
 #define SPX_EXTERN_C        AZAC_EXTERN_C
 #ifndef SPXAPI_EXPORT

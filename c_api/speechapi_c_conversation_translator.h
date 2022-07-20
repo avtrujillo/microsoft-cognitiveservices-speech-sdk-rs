@@ -6,14 +6,14 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
-#include <speechapi_c_connection.h>
+#include "speechapi_c_common.h"
+#include "speechapi_c_connection.h"
 
 #ifdef __cplusplus
-#include <speechapi_cxx_enums.h>
+#include "speechapi_cxx_enums.h"
 typedef Microsoft::CognitiveServices::Speech::Transcription::ParticipantChangedReason ParticipantChangedReason;
 #else
-#include <speechapi_c_property_bag.h>
+#include "speechapi_c_property_bag.h"
 #endif
 
 typedef void(*PCONV_TRANS_CALLBACK)(SPXCONVERSATIONTRANSLATORHANDLE hConvTrans, SPXEVENTHANDLE hEvent, void* pvContext);

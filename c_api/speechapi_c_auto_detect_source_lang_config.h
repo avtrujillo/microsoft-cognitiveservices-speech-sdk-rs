@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI create_auto_detect_source_lang_config_from_open_range(SPXAUTODETECTSOURCELANGCONFIGHANDLE* hAutoDetectSourceLanguageconfig);
 SPXAPI create_auto_detect_source_lang_config_from_languages(SPXAUTODETECTSOURCELANGCONFIGHANDLE* hAutoDetectSourceLanguageconfig, const char* languages);

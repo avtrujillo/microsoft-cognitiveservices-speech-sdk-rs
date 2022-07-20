@@ -9,7 +9,7 @@
 
 #ifndef AZAC_SUPRESS_COMMON_INCLUDE_FROM_DIAGNOSTICS
 #define AZAC_SUPRESS_DIAGNOSTICS_INCLUDE_FROM_COMMON
-#include <azac_api_c_common.h>
+#include "azac_api_c_common.h"
 #undef AZAC_SUPRESS_DIAGNOSTICS_INCLUDE_FROM_COMMON
 #endif
 

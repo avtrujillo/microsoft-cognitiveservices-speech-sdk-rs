@@ -6,6 +6,6 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI intent_result_get_intent_id(SPXRESULTHANDLE hresult, char* pszIntentId, uint32_t cchIntentId);

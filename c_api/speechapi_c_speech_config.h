@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 typedef enum { SpeechOutputFormat_Simple = 0, SpeechOutputFormat_Detailed = 1 } SpeechOutputFormat;
 

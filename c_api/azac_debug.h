@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <azac_error.h>
+#include "azac_error.h"
 #include <inttypes.h>
 
 // TODO: TFS#3671215 - Vision: C/C++ azac_api* files are in shared include directory, speech and vision share
@@ -622,7 +622,7 @@ inline void __azac_do_trace_message(int level, const char* pszTitle, const char*
 // handle circular dependency
 #ifndef AZAC_SUPRESS_COMMON_INCLUDE_FROM_DEBUG
 #define AZAC_SUPRESS_DEBUG_INCLUDE_FROM_COMMON
-#include <azac_api_c_common.h>
+#include "azac_api_c_common.h"
 #undef AZAC_SUPRESS_DEBUG_INCLUDE_FROM_COMMON
 #endif
 
@@ -657,8 +657,8 @@ inline void __azac_do_trace_message(int level, const char* pszTitle, const char*
 #define AZAC_IFFAILED_THROW_HR(hr)                  AZAC_THROW_ON_FAIL(hr)
 #define AZAC_IFFAILED_THROW_HR_IFNOT(hr, hrNot)     AZAC_THROW_ON_FAIL_IF_NOT(hr, hrNot)
 
-#include <azac_api_c_error.h>
-#include <azac_api_c_diagnostics.h>
+#include "azac_api_c_error.h"
+#include "azac_api_c_diagnostics.h"
 #include <stdexcept>
 #include <string>
 

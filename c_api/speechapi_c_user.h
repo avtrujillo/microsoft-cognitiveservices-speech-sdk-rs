@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI user_create_from_id(const char* user_id, SPXUSERHANDLE* huser);
 SPXAPI user_release_handle(SPXUSERHANDLE huser);

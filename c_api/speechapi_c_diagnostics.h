@@ -4,5 +4,5 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
-#include <azac_api_c_diagnostics.h> // must include after spxdebug.h or speechapi*.h (can NOT be included before)
+#include "speechapi_c_common.h"
+#include "azac_api_c_diagnostics.h" // must include after spxdebug.h or speechapi*.h (can NOT be included before)

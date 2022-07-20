@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI create_voice_profile_client_from_config(SPXVOICEPROFILECLIENTHANDLE* phclient, SPXSPEECHCONFIGHANDLE hSpeechConfig);
 SPXAPI voice_profile_client_release_handle(SPXVOICEPROFILECLIENTHANDLE hVoiceClient);

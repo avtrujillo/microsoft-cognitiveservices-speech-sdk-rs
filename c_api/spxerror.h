@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include <azac_error.h> // must include after spxdebug.h or speechapi*.h (can NOT be included before)
+#include "azac_error.h" // must include after spxdebug.h or speechapi*.h (can NOT be included before)
 
 #define SPXHR AZACHR
 #define SPX_NOERROR AZAC_ERR_NONE

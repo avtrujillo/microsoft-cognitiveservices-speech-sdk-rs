@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI intent_recognizer_add_intent(SPXRECOHANDLE hreco, const char* intentId, SPXTRIGGERHANDLE htrigger);
 SPXAPI intent_recognizer_recognize_text_once(SPXRECOHANDLE hreco, const char* text, SPXRESULTHANDLE* hresult);

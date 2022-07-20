@@ -4,9 +4,9 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
-#include <speechapi_c_speech_config.h>
-#include <speechapi_c_speech_recognition_model.h>
+#include "speechapi_c_common.h"
+#include "speechapi_c_speech_config.h"
+#include "speechapi_c_speech_recognition_model.h"
 
 SPXAPI embedded_speech_config_create(SPXSPEECHCONFIGHANDLE* hconfig);
 SPXAPI embedded_speech_config_add_path(SPXSPEECHCONFIGHANDLE hconfig, const char* path);

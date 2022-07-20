@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 /// <summary>
 /// Defines the header of the buffer that returns translation text results. The buffer starts with the header whose structure is

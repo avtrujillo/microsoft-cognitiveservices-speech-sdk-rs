@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI connection_from_recognizer(SPXRECOHANDLE recognizerHandle, SPXCONNECTIONHANDLE* connectionHandle);
 SPXAPI connection_from_conversation_translator(SPXCONVERSATIONTRANSLATORHANDLE convTransHandle, SPXCONNECTIONHANDLE* connectionHandle);

@@ -6,8 +6,8 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
-#include <speechapi_c_connection.h>
+#include "speechapi_c_common.h"
+#include "speechapi_c_connection.h"
 
 
 enum SpeechSynthesis_BoundaryType

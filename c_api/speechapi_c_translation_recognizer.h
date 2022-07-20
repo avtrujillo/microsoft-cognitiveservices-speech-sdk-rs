@@ -5,7 +5,7 @@
 
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 
 // Todo: Translation recognizer management API.

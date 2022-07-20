@@ -8,7 +8,7 @@
 // TODO: TFS#3671215 - Vision: C/C++ azac_api* files are in shared include directory, speech and vision share
 
 #include <stdbool.h>
-#include <azac_error.h>
+#include "azac_error.h"
 
 #ifdef __cplusplus
 #define AZAC_EXTERN_C           extern "C"
@@ -69,18 +69,18 @@ typedef _azachandle AZAC_HANDLE;
 
 #ifndef AZAC_SUPRESS_DIAGNOSTICS_INCLUDE_FROM_COMMON
 #define AZAC_SUPRESS_COMMON_INCLUDE_FROM_DIAGNOSTICS
-#include <azac_api_c_diagnostics.h>
+#include "azac_api_c_diagnostics.h"
 #undef AZAC_SUPRESS_COMMON_INCLUDE_FROM_DIAGNOSTICS
 #endif
 
 #ifndef AZAC_SUPRESS_ERROR_INCLUDE_FROM_COMMON
 #define AZAC_SUPRESS_COMMON_INCLUDE_FROM_ERROR
-#include <azac_api_c_error.h>
+#include "azac_api_c_error.h"
 #undef AZAC_SUPRESS_COMMON_INCLUDE_FROM_ERROR
 #endif
 
 #ifndef AZAC_SUPRESS_DEBUG_INCLUDE_FROM_COMMON
 #define AZAC_SUPRESS_COMMON_INCLUDE_FROM_DEBUG
-#include <azac_debug.h>
+#include "azac_debug.h"
 #undef AZAC_SUPRESS_COMMON_INCLUDE_FROM_DEBUG
 #endif

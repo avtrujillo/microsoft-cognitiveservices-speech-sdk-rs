@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI__(const char*) ai_core_string_create(const char* str, size_t size);
 SPXAPI_(void) ai_core_string_free(const char* str);

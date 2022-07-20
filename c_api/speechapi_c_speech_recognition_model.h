@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI speech_recognition_model_handle_release(SPXSPEECHRECOMODELHANDLE hmodel);
 SPXAPI__(const char*) speech_recognition_model_get_name(SPXSPEECHRECOMODELHANDLE hmodel);

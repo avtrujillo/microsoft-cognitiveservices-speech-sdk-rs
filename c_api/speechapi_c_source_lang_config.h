@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI source_lang_config_from_language(SPXSOURCELANGCONFIGHANDLE* hconfig, const char* language);
 SPXAPI source_lang_config_from_language_and_endpointId(SPXSOURCELANGCONFIGHANDLE* hconfig, const char* language, const char* endpointId);

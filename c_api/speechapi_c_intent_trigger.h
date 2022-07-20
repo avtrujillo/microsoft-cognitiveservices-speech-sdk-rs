@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 
 SPXAPI_(bool) intent_trigger_handle_is_valid(SPXTRIGGERHANDLE htrigger);

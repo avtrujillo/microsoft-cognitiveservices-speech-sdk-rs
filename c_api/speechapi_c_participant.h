@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI participant_create_handle(SPXPARTICIPANTHANDLE* hparticipant, const char* userId, const char* preferred_language, const char* voice_signature);
 SPXAPI participant_release_handle(SPXPARTICIPANTHANDLE hparticipant);

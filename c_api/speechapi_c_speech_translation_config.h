@@ -4,7 +4,7 @@
 //
 
 #pragma once
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI speech_translation_config_from_subscription(SPXSPEECHCONFIGHANDLE* configHandle, const char* subscription, const char* region);
 SPXAPI speech_translation_config_from_authorization_token(SPXSPEECHCONFIGHANDLE* configHandle, const char* authToken, const char* region);

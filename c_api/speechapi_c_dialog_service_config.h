@@ -6,7 +6,7 @@
 //
 #pragma once
 
-#include <speechapi_c_common.h>
+#include "speechapi_c_common.h"
 
 SPXAPI bot_framework_config_from_subscription(SPXSPEECHCONFIGHANDLE* ph_config, const char* subscription, const char* region, const char *bot_Id);
 SPXAPI bot_framework_config_from_authorization_token(SPXSPEECHCONFIGHANDLE* ph_config, const char* auth_token, const char* region, const char* bot_Id);

@@ -192,9 +192,9 @@
 //  (must come after everything above)
 //-------------------------------------------------------
 
-#include <azac_debug.h>
+#include "azac_debug.h"
 #include <inttypes.h>
-#include <spxerror.h>
+#include "spxerror.h"
 
 #ifndef _MSC_VER
 // macros in this header generate a bunch of
